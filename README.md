@@ -12,7 +12,7 @@ The database that I've been tasked to analyse includes the following tables:
 In this role, I was tasked to perform ad hoc analysis, provide useful insights, and write reports to questions from a variety of stakeholders within LetsMeet including the CEO, Sales, and Engineering teams. I was also tasked with improving the database structure.
 
 The work that I've accomplished are in the following files:
-1. sales_insights - This file includes a set of queries that I developed to answer questions from the LetsMeet Sales Team. They were interested in learning:
+sales_insights - This file includes a set of queries that I developed to answer questions from the LetsMeet Sales Team. They were interested in learning:
   - What cities have active members?
   - Are there any cities listed in the city table with no active members? If so, what states are those cities in?
   - How many groups are open, waiting for approval, and/or closed?
@@ -21,7 +21,7 @@ The work that I've accomplished are in the following files:
   - How many total members are there?
   - What percentage of members are located in Chicago?
   
-2. 2_additional_insights - Ad hoc analysis that includes a series of queries that uncovered insights. Queries helped determine:
+2_additional_insights - Ad hoc analysis that includes a series of queries that uncovered insights. Queries helped determine:
   - There were no venues outside of the U.S.
   - The city with the most venues was New York. Chicago and San Francisco were 2nd and 3rd respectively.
   - The top 2 specific zip codes with the most venues were both in New York.
@@ -35,11 +35,8 @@ The work that I've accomplished are in the following files:
   - Determined the most popular venue is The Ainsworth in New York City.
   - Determined the Top 5 most popular categories.
   
-4. blank - After generating an ERD of the database in MySQL Workbench, I analysed the ERD and used DESCRIBE and SELECT * FROM to look for redundant columns. I then used DDL to drop 14 columns from within the six tables that made up the database. Each of these 14 columns were redundant, had no usefull data, or served no purpose. Finally, I used DDL to split the grp_member table into 2 new tables: group_sign_ups and members. Each new table used columns from the group_member table. I added Primary and Foreign Keys and then dropped the group_member table after verifying that the 2 new tables were built correctly and had all their data present.
-5.
-6.
-7.
-8.
-
-
+blank - This file contains the code that that I developed to improve the database structure.
+  - After generating an ERD of the database in MySQL Workbench, I analysed the ERD and used DESCRIBE and SELECT * FROM to look for redundant columns. 
+  - Developed DDL statements to drop 14 columns from within the 6 tables that made up the database. Each of these 14 columns were redundant, had no usefull data, or served no purpose. 
+  - Developed DDL statements to split the grp_member table into 2 new tables: group_sign_ups and members. Each new table used columns from the group_member table. I added Primary and Foreign Keys and then dropped the group_member table after verifying that the 2 new tables were built correctly and had all their data present.
 
