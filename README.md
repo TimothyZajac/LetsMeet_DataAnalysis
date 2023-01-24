@@ -9,6 +9,8 @@ The database that I've been tasked to analyse includes the following tables:
 5. category - This table contains the different categories of groups.
 6. city - This table contains information about the cities where LetsMeet groups and members gather.
 
+In this role, I am expected to perform ad hoc analysis, provide useful insights, and write reports to questions from a variety of stakeholders within LetsMeet including the CEO, Sales, and Engineering teams. I was also tasked with improving the database structure.
+
 File Summary:
 1. sales_insights - includes a set of six queries to answer a set of questions from the LetsMeet Sales Team.
 2. 2_additional_insights - Ad hoc analysis that includes a series of twelve queries that uncovered insights in each of the six tables in this database.
