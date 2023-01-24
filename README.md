@@ -12,13 +12,34 @@ The database that I've been tasked to analyse includes the following tables:
 In this role, I was tasked to perform ad hoc analysis, provide useful insights, and write reports to questions from a variety of stakeholders within LetsMeet including the CEO, Sales, and Engineering teams. I was also tasked with improving the database structure.
 
 The work that I've accomplished are in the following files:
-1. sales_insights - includes a set of six queries to answer a set of questions from the LetsMeet Sales Team.
-2. 2_additional_insights - Ad hoc analysis that includes a series of twelve queries that uncovered insights in each of the six tables in this database.
-3. blank - After generating an ERD of the database in MySQL Workbench, I analysed the ERD and used DESCRIBE and SELECT * FROM to look for redundant columns. I then used DDL to drop 14 columns from within the six tables that made up the database. Each of these 14 columns were redundant, had no usefull data, or served no purpose. Finally, I used DDL to split the grp_member table into 2 new tables: group_sign_ups and members. Each new table used columns from the group_member table. I added Primary and Foreign Keys and then dropped the group_member table after verifying that the 2 new tables were built correctly and had all their data present.
-4.
+1. sales_insights - This file includes a set of queries that I developed to answer questions from the LetsMeet Sales Team. They were interested in learning:
+  - What cities have active members?
+  - Are there any cities listed in the city table with no active members? If so, what states are those cities in?
+  - How many groups are open, waiting for approval, and/or closed?
+  - What are the 5 categories that contain the most groups?
+  - What are the 5 categories that contain the least groups?
+  - How many total members are there?
+  - What percentage of members are located in Chicago?
+  
+2. 2_additional_insights - Ad hoc analysis that includes a series of queries that uncovered insights. Queries helped determine:
+  - There were no venues outside of the U.S.
+  - The city with the most venues was New York. Chicago and San Francisco were 2nd and 3rd respectively.
+  - The top 2 specific zip codes with the most venues were both in New York.
+  - Explored the who column in the grp table and found the values provided no useful information. I made a note to discuss eliminating this column in the future.
+  - Determined the Top 5 longest running groups. All started in October, 2002 and 3 of the 5 were in New York.
+  - Determined the 5 members with the longest membership. The member with the olderst active membership started in April, 2003. 4 of the 5 started in 2003.
+  - Determined the members who belong to the most groups. 7 members belong to 7 groups each.
+  - There were no venues outside of the U.S. 
+  - The rank column in the city table provides no useful information. I made a note to discuss eliminating this column.
+  - Determined the number of events with the total headcount and average headcount at each event. The headcount values were 0 and didn't provide useful information. This is anothe candidate for elimination.
+  - Determined the most popular venue is The Ainsworth in New York City.
+  - Determined the Top 5 most popular categories.
+  
+4. blank - After generating an ERD of the database in MySQL Workbench, I analysed the ERD and used DESCRIBE and SELECT * FROM to look for redundant columns. I then used DDL to drop 14 columns from within the six tables that made up the database. Each of these 14 columns were redundant, had no usefull data, or served no purpose. Finally, I used DDL to split the grp_member table into 2 new tables: group_sign_ups and members. Each new table used columns from the group_member table. I added Primary and Foreign Keys and then dropped the group_member table after verifying that the 2 new tables were built correctly and had all their data present.
 5.
 6.
 7.
+8.
 
 
 
