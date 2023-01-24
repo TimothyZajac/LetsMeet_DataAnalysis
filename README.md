@@ -40,7 +40,7 @@ blank - This file contains the code that that I developed to improve the databas
   - Developed DDL statements to drop 14 columns from within the 6 tables that made up the database. Each of these 14 columns were redundant, had no usefull data, or served no purpose. 
   - Developed DDL statements to split the grp_member table into 2 new tables: group_sign_ups and members. Each new table used columns from the group_member table. I added Primary and Foreign Keys and then dropped the group_member table after verifying that the 2 new tables were built correctly and had all their data present.
 
-2_toastmaster - This file contains the queries that I developed to help answer a question from the LetsMeet CEO. She wanted the total number of Taostmaster events om LetsMeet alond with a breakout of the number of Toastmaster events in each city.
+2_toastmaster - This file contains the queries that I developed to help answer a question from the LetsMeet CEO. She wanted the total number of Toastmaster events om LetsMeet alond with a breakout of the number of Toastmaster events in each city.
 
 3_growth - 
 
