@@ -54,4 +54,7 @@ blank - This file contains the code that that I developed to improve the databas
   - Developed queries that displayed all groups with a 5 start rating by the number of members in each from highest to lowest.
   - Further developed that query to include the city and category information with each in order to help the Sales Team develop a targeted marketing plan to drive increased membership.
 
-summary_report - 
+summary_report - This is a report that is based on the queries and insights developed throughout the project. It includes:
+  - A breakout of the number of Toastmasters events using LetsMeet in New York, Chicago, and San Francisco.
+  - Provides data to shows that LetsMeet membership is indeed leveling off.
+  - Provides a recommendation for 5 LetsMeet groups that marketing should highlight in their next marketing campaign. Recommended groups repersent each city and are all from different categories. 
