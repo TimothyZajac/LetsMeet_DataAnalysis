@@ -49,6 +49,9 @@ blank - This file contains the code that that I developed to improve the databas
   - Develpoed seperate queries to determine the number of new LetsMeet members in the New York City, Chicago, and San Francisco metropolitan areas by year joined.
   - Determined the number of new LetsMeet members in 2017 by the month they joined. Discovered that he number of new members is around 1000 per month from January to October. The number of new members decline significantly in November and December, most likely due to it being the holiday season where people are spending time with family and holiday events.   
 
-4_feature_groups - 
+4_feature_groups - This file contains queries focused on deriving insights into LetsMeet groups:
+  - Developed queries that transformed the rating values to a simple system of 5 star to 1 star (with 5 star being the highest) and a 0 in isntances where no rating was given. Also included the number of groups within each rating. Discovered that the total number of groups in LetsMeet is 4340. Of these, 1548 (36%) have no rating. Of the 2792 groups with a rating, 745 groups had a 5 star rating.
+  - Developed queries that displayed all groups with a 5 start rating by the number of members in each from highest to lowest.
+  - Further developed that query to include the city and category information with each in order to help the Sales Team develop a targeted marketing plan to drive increased membership.
 
 summary_report - 
