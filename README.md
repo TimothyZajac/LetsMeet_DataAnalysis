@@ -42,7 +42,12 @@ blank - This file contains the code that that I developed to improve the databas
 
 2_toastmaster - This file contains the queries that I developed to help answer a question from the LetsMeet CEO. She wanted the total number of Toastmaster events om LetsMeet alond with a breakout of the number of Toastmaster events in each city.
 
-3_growth - 
+3_growth - This file contains 9 queries that I developed that provide isnights into membership. I developed SQL queries to:
+  - Determined the number of LetsMeet members by the year they joined. Found that the dataset is incomplete- it doesn't include data from 2018-2022. Also found that membership generally increased each year but dropped significantly during the 2 most recent years (2016 nad 2017).
+  - Developed a query to determine the number of instances of each city name in the grp_member table.
+  - Developed SQL statements to update cities in the surrounding area of each of the 3 major cities where LetMeet is present (New York, Chicago, San Francisco) so the value reflects the city's metropolitan area.
+  - Develpoed seperate queries to determine the number of new LetsMeet members in the New York City, Chicago, and San Francisco metropolitan areas by year joined.
+  - Determined the number of new LetsMeet members in 2017 by the month they joined. Discovered that he number of new members is around 1000 per month from January to October. The number of new members decline significantly in November and December, most likely due to it being the holiday season where people are spending time with family and holiday events.   
 
 4_feature_groups - 
 
